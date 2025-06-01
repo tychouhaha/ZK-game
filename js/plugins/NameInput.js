@@ -70,7 +70,7 @@ Scene_Name.prototype.createBCWindow = function() {
         this._bcWindow.setHandler('dianji', this.onInputOk.bind(this));
     this.addWindow(this._bcWindow);
  
-    this._csWindow = new Window_BC("还原");
+    this._csWindow = new Window_BC("還原");
     this._csWindow.x = this._editWindow.x + this._editWindow.width - this._bcWindow.width - this._bcWindow.width
     this._csWindow.y = this._editWindow.y +this._editWindow.height
         this._csWindow.setHandler('dianji', this.oncs.bind(this));
