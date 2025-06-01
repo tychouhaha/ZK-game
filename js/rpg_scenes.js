@@ -688,7 +688,9 @@ Scene_Map.prototype.isMapTouchOk = function() {
     return this.isActive() && $gamePlayer.canMove();
 };
 
-Scene_Map.prototype.processMapTouch = function() {};
+Scene_Map.prototype.processMapTouch = function() {
+   
+};
 
 Scene_Map.prototype.isSceneChangeOk = function() {
     return this.isActive() && !$gameMessage.isBusy();
